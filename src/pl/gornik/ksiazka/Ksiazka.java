@@ -24,4 +24,15 @@ public class Ksiazka {
             napis1 = "Kwota za jedną sztukę ksiązki " + tytul + " wynosi: " + cenaZaJednaSztuke;
             return napis1;
         }
+
+    @Override
+    public String toString() {
+        return "Ksiazka{" +
+                "tytul='" + tytul + '\'' +
+                ", kategoria='" + kategoria + '\'' +
+                ", iloscStron=" + iloscStron +
+                ", cena=" + cena +
+                ", iloscSztuk=" + iloscSztuk +
+                '}';
+    }
 }
